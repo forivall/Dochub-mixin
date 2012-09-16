@@ -1,0 +1,20 @@
+{
+  "name": "dochub",
+  "version": "0.4",
+  "description": "Search in documentation at dochub.io",
+  "main": "init.js",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/drudge/pastie.chocmixin.git"
+  },
+  "keywords": [
+	"dochub",
+	"dochub.io",
+	"docu",
+	"documentation",
+	"info",
+	"code"
+  ],
+  "author": "Marian Sievers <info@hackordnung.net>",
+  "license": "BSD"
+}

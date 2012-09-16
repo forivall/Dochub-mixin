@@ -10,8 +10,8 @@ This mixin adds dochub support to [Chocolat](http://chocolatapp.com). **It is cu
 
 This mixin will be installable with Chocolat's Extras Manager when the new version is released. Until then, do something like:
 
-	mkdir -p ~/Library/Application\ Support/Chocolat/Mixins/
-	git clone https://github.com/drudge/gist.chocmixin.git ~/Library/Application\ Support/Chocolat/Mixins/gist.chocmixin
+	mkdir -p ~/.chocolat/mixins
+	git clone https://github.com/rotespferd/Dochub-mixin.git ~/.chocolat/mixins/dochub.chocmixin
 
 ## Contributors
 
@@ -28,11 +28,14 @@ All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
+
 	* Redistributions of source code must retain the above copyright
 	  notice, this list of conditions and the following disclaimer.
+	  
 	* Redistributions in binary form must reproduce the above copyright
 	  notice, this list of conditions and the following disclaimer in the
 	  documentation and/or other materials provided with the distribution.
+	  
 	* Neither the name of Hackordnung.net nor the
 	  names of its contributors may be used to endorse or promote products
 	  derived from this software without specific prior written permission.
