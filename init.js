@@ -35,9 +35,9 @@ function getLanguage () {
     
 	knownLanguages.forEach(function(element, index, array) {
 		var indexOfResult = scopeArray.indexOf(element);
-		Alert.show("Debug", element);
 		
 		if(indexOfResult > -1) {
+			Alert.show("Debug", element);
 			scopeLanguage = element;
 		}
 	});
