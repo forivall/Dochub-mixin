@@ -37,7 +37,7 @@ function getLanguage () {
 		var indexOfResult = scopeArray.indexOf(element);
 		
 		if(indexOfResult > -1) {
-			Alert.show("Debug", element);
+			//Alert.show("Debug", element);
 			scopeLanguage = element;
 		}
 	});
