@@ -13,6 +13,12 @@ This mixin will be installable with Chocolat's Extras Manager when the new versi
 	mkdir -p ~/.chocolat/mixins
 	git clone https://github.com/rotespferd/Dochub-mixin.git ~/.chocolat/mixins/dochub.chocmixin
 
+## Branches
+
+* master - the release version (stable)
+* testing - testing fo the release version (hopefully stable)
+* dev - development branch (unstable)
+
 ## Contributors
 
 The following are the major contributors in no specific order:
