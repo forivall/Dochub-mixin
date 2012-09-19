@@ -29,11 +29,12 @@ function getLanguage () {
 	
 	var knownLanguages = ["js", "php", "css", "html"];
 	
-	var array = scope.split(".");
 	var scopeLanguage = "unkown";
 	
+    var scopeArray = scope.split(".");
+    
 	knownLanguages.forEach(function(element, index, array) {
-		var indexOfResult = array.indexOf(element);
+		var indexOfResult = scopeArray.indexOf(element);
 		Alert.show("Debug", element);
 		
 		if(indexOfResult > -1) {

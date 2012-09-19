@@ -1,6 +1,6 @@
 {
   "name": "dochub",
-  "version": "0.4",
+  "version": "0.4.1",
   "description": "Search in documentation at dochub.io",
   "main": "init.js",
   "repository": {
