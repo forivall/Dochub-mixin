@@ -27,7 +27,8 @@ function showPopover (word, wordPosition) {
 function getLanguage () {
 	var scope = Document.current().rootScope();
 	
-	var knownLanguages = ["js", "php", "css", "html"];
+	//php must be after html so that php is not identified by html
+	var knownLanguages = ["js", "css", "html", "php", "python"];
 	
 	var scopeLanguage = "unkown";
 	
