@@ -5,7 +5,7 @@
   "main": "init.js",
   "repository": {
 	"type": "git",
-	"url": "https://github.com/drudge/pastie.chocmixin.git"
+	"url": "https://github.com/rotespferd/Dochub-mixin.git"
   },
   "keywords": [
 	"dochub",
